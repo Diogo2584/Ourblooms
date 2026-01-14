@@ -1,0 +1,155 @@
+.head{
+    text-align:start;
+}
+.cap{
+    text-align:start;
+    grid-area:cap;
+}
+.rightColumnContainer{
+    grid-area:rc;
+    text-align:start;
+}
+.img1{
+    grid-area: img1;
+}
+.img2{
+    grid-area: img2;
+}
+.img3{
+    grid-area: img3;
+}
+.container{
+display:grid;
+grid-template-areas: 'cap rc rc rc rc rc rc rc rc rc rc rc rc'
+                     'cap img1 img1 img1 img1 img2 img2 img2 img2 img3 img3 img3 img3';
+grid-gap:20px;
+
+}
+/*
+.container{
+    display:flex;
+    gap:50px;
+}
+
+.imgContainer{
+    display:flex;
+    gap:20px;
+}
+
+
+.rightColumnContainer{
+    display:flex;
+    flex-direction:column;
+    align-items:start;
+    gap:20px;
+}
+    
+
+.Journey{
+    text-align:start;
+    max-width:600px;
+}
+.begin{
+    text-align:start;
+    max-width:600px;
+}
+.AuthorInformation{
+    display:flex;
+    gap:20px;
+}
+.authorDetails{
+    text-align:start;
+}
+    
+/*
+.head{
+    text-align:start;
+}
+.imgContainer{
+    display:flex;
+    gap:20px;
+    grid-area:img;
+}
+.AuthorInformation{
+    display:flex;
+    align-items:start;
+    gap:20px;
+    text-align:start;
+}
+.Journey{
+    text-align:start;
+    max-width:400px;
+}
+.rightColumnContainer button{
+    margin-top:20px;
+    margin-bottom:100px;
+    
+    grid-area:rc;
+}
+.begin{
+    text-align:start;
+    max-width:400px;
+}
+.cap{
+    text-align:start;
+    grid-area:cap;
+}
+.mission{
+    text-align:start;
+    max-width:400px;
+}
+.footer{
+    text-align:start;
+    grid-area:ft;
+}
+.container{
+    display:grid;
+    grid-template-areas: 'cap rc rc rc rc rc rc rc rc rc rc rc'
+                         'cap img img img img img img img img img img img'
+                         'cap ft ft ft ft ft ft ft ft ft ft ft';
+    grid-gap:100px;
+}
+@media screen and (min-width: 800px) and (max-width:1199px){
+    .container{
+        grid-template-areas: 'cap cap cap cap cap cap cap cap'
+                             'img img img img img img img img'
+                             'ft ft ft ft ft ft ft ft';
+    }
+
+}
+@media screen and (max-width:799px){
+    .imgContainer{
+        flex-direction:column;
+        align-items:center;
+    }
+    .AuthorInformation{
+        flex-direction:column;
+        align-items:center;
+    }
+    .rightColumnContainer button{
+        margin-bottom:50px;
+    }
+    .container{
+        grid-template-areas: 'cap'
+                             'img'
+                             'ft';
+    }
+    .footer{
+        display:flex;
+        justify-content:center;
+    }
+    .Journey{
+        margin-left:150px;
+    }
+    .mission{
+        margin-left:150px;
+    }
+    .begin{
+        margin-left:150px;
+    }
+    .rightColumnContainer button{
+        margin-left:150px;
+    }
+}
+    */
+    
