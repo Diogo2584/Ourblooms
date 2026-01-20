@@ -66,8 +66,8 @@
                              'pic7'
                              'pic8'
                              'pic9';
-        place-items: start;
         grid-template-columns: 1fr;
-
+        place-items:center;
+        text-align:center;
     }
 }
